@@ -10,7 +10,7 @@
  $outputPath = $LocalPath + '\' + $osOptURLexe
  Invoke-WebRequest -Uri $osOptURL -OutFile $outputPath
  write-host 'Starting OS Optimizations script'
- Expand-Archive -LiteralPath 'C:\\Optimize\\Windows_10_VDI_Optimize-master.zip' -DestinationPath $Localpath -Force -Verbose
+ Expand-Archive -LiteralPath 'C:\\Optimize\\Windows_VDOT.ps1' -DestinationPath $Localpath -Force -Verbose
  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Force -Verbose
  Set-Location -Path C:\\Optimize\\Virtual-Desktop-Optimization-Tool-master
  
